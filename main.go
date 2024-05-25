@@ -14,4 +14,7 @@ func main() {
 
 	fmt.Println("## Goja / linkedom ----")
 	gojaRun("./run_linkedom.js")
+
+	fmt.Println("## Goja / linkedom mjs w/ Babel ----")
+	gojaRun("./run_linkedom.mjs")
 }

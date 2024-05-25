@@ -1,5 +1,4 @@
-// import { DOMParser, parseHTML } from 'linkedom';
-const { DOMParser, parseHTML } = require("linkedom");
+import { DOMParser, parseHTML } from 'linkedom';
 
 const {
     window, document, customElements,
@@ -18,4 +17,4 @@ const {
 `);
 
 console.log(document.querySelector("#main").textContent);
-var doc = document.toString();
+const doc = document.toString();

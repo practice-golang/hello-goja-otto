@@ -2,5 +2,8 @@
   "dependencies": {
     "jsdom": "^24.0.0",
     "linkedom": "^0.18.0"
+  },
+  "devDependencies": {
+    "@babel/standalone": "^7.24.6"
   }
 }
