@@ -5,10 +5,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/grafana/sobek"
 	"github.com/practice-golang/goja_nodejs/console"
 	"github.com/practice-golang/goja_nodejs/require"
-
-	"github.com/grafana/sobek"
 )
 
 func loadToSobek(vm *sobek.Runtime, file string) {
