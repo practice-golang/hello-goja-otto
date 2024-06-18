@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"hello-otto-goja-sobek/console"
-	"hello-otto-goja-sobek/require"
+	"github.com/practice-golang/goja_nodejs/console"
+	"github.com/practice-golang/goja_nodejs/require"
 
 	"github.com/grafana/sobek"
 )
