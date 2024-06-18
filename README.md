@@ -1,14 +1,14 @@
-Taste js runtimes.
+Taste Go js runtimes.
 
 
-## Taste
-* https://github.com/robertkrimen/otto - `Not work`
-* https://github.com/dop251/goja - `Work`
+## Taste working
 
+|     |[Otto](https://github.com/robertkrimen/otto)|[Goja](https://github.com/dop251/goja)|[Sobek](https://github.com/grafana/sobek)|
+|-----|----|----|----|
+|[jsDOM](https://github.com/jsdom/jsdom)|No|No|No|
+|[linkeDOM](https://github.com/WebReflection/linkedom)|No|Yes|Yes|
 
-## Target - DOM parsers
-* https://github.com/jsdom/jsdom - `Not work`
-* https://github.com/WebReflection/linkedom - `Work`
+* Sobek is a fork of Goja for js module
 
 
 ## Run
